@@ -1,7 +1,7 @@
-fn say_hello() {
-    println!("Hello, world!");
+fn add_two_number(first : i32, second : i32) -> i32 {
+    first + second
 }
 
 fn main() {
-    say_hello();
+    println!("{} + {} = {}", 1, 2, add_two_number(1, 2));
 }
