@@ -3,5 +3,5 @@ fn add_two_number(first : i32, second : i32) -> i32 {
 }
 
 fn main() {
-    println!("{} + {} = {}", 1, 2, add_two_number(1, 2));
+    println!("Adding: {} + {} = {}", 1, 2, add_two_number(1, 2));
 }
